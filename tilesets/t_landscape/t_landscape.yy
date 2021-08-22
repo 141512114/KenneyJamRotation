@@ -43,8 +43,12 @@
         111,
         112,
       ],"resourceVersion":"1.0","name":"animation_1","tags":[],"resourceType":"GMTileAnimation",},
+    {"frames":[
+        151,
+        152,
+      ],"resourceVersion":"1.0","name":"animation_2","tags":[],"resourceType":"GMTileAnimation",},
   ],
-  "tileAnimationSpeed": 1.0,
+  "tileAnimationSpeed": 5.0,
   "tileAnimation": {
     "FrameData": [
       0,
@@ -350,9 +354,9 @@
       150,
       150,
       151,
+      152,
+      152,
       151,
-      152,
-      152,
       153,
       153,
       154,

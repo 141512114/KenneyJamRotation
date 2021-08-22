@@ -8,7 +8,7 @@ y += (y_to - y) / camera_bounce;
 
 camera_set_view_pos(camera, -(camera_width/2)+x, -(camera_height/2)+y);
 
-if (target != noone){
+if (instance_exists(target)){
 	x_to = target.x;
 	y_to = target.y;
 }

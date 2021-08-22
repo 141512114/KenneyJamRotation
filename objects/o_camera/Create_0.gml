@@ -11,7 +11,7 @@ camera = camera_create_view(0, 0, camera_width, camera_height, 0, -1, -1, -1, 32
 view_set_camera(0, camera);	
 
 // Set up important variables
-target = noone;
+target = o_player;
 x_to = x;
 y_to = y;
 

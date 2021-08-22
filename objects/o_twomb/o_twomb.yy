@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_entity",
-    "path": "objects/o_entity/o_entity.yy",
+    "name": "o_enemy",
+    "path": "objects/o_enemy/o_enemy.yy",
   },
   "physicsObject": true,
   "physicsSensor": false,
@@ -23,10 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":3.0,"y":3.0,},
-    {"x":21.0,"y":3.0,},
-    {"x":21.0,"y":21.0,},
-    {"x":3.0,"y":21.0,},
+    {"x":11.0,"y":11.0,},
+    {"x":38.0,"y":11.0,},
+    {"x":38.0,"y":38.0,},
+    {"x":11.0,"y":38.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},

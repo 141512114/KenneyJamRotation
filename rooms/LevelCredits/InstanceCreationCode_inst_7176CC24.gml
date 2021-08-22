@@ -1,0 +1,1 @@
+current_type = btype.play_again;

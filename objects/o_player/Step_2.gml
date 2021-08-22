@@ -20,9 +20,12 @@ var clamp_pos_y = clamp(phy_position_y, 0, room_height);
 phy_position_x = clamp_pos_x;
 phy_position_y = clamp_pos_y;
 
-if (keyboard_check_pressed(vk_space)) {
+// If space is pressed, reverse gravity
+if (can_defy_gravity && keyboard_check_pressed(vk_space)) {
 	global.y_gravity = -global.y_gravity;
 	physics_world_gravity(global.x_gravity, global.y_gravity);
 	phy_rotation = phy_rotation + 180;
 	img_xscale_invert = -img_xscale_invert;
+	can_defy_gravity = false;
+	alarm_set(0, 30);
 }
