@@ -22,8 +22,8 @@ phy_position_y = clamp_pos_y;
 
 // If space is pressed, reverse gravity
 if (can_defy_gravity && keyboard_check_pressed(vk_space)) {
-	global.y_gravity = -global.y_gravity;
-	physics_world_gravity(global.x_gravity, global.y_gravity);
+	y_gravity = -y_gravity;
+	physics_world_gravity(global.x_gravity, y_gravity);
 	phy_rotation = phy_rotation + 180;
 	img_xscale_invert = -img_xscale_invert;
 	can_defy_gravity = false;

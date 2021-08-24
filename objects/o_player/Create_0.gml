@@ -7,6 +7,8 @@ img_xscale = 1;
 img_xscale_invert = -1;
 img_speed = .45;
 
+y_gravity = global.y_gravity;
+
 can_defy_gravity = true;
 
 if (!instance_exists(o_camera)) {
